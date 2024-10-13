@@ -26,12 +26,12 @@
 {"#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c","#8a7f6c"},
 	}
 
-register_firework_entity("yl_fireworks:yl_firework_entity", {
+fireworks_reimagined.register_firework_entity("yl_fireworks:yl_firework_entity", {
 	firework_shape = "yl",
 	firework_explosion = function(pos, shape)
-		register_firework_explosion(pos, 0.5, color_grid, 1)
+		fireworks_reimagined.register_firework_explosion(pos, 0.5, color_grid, 1)
 	end
 })
 
-register_firework_node("your_land", "yl_fireworks:yl_firework_entity", 0)
-register_firework_node("your_land", "yl_fireworks:yl_firework_entity", 10)
+fireworks_reimagined.register_firework_node("your_land", "yl_fireworks:yl_firework_entity", 0)
+fireworks_reimagined.register_firework_node("your_land", "yl_fireworks:yl_firework_entity", 10)
