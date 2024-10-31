@@ -28,9 +28,9 @@
 
 fireworks_reimagined.register_firework_entity("yl_fireworks:yl_firework_entity", {
 	firework_explosion = function(pos, shape)
-		fireworks_reimagined.register_firework_explosion(pos, 0.5, color_grid, 1)
+		fireworks_reimagined.register_firework_explosion(pos, 0.5, color_grid, 1, nil)
 	end
 })
 
-fireworks_reimagined.register_firework_node(nil, "your_land", "yl_fireworks:yl_firework_entity", 0)
-fireworks_reimagined.register_firework_node(nil, "your_land", "yl_fireworks:yl_firework_entity", 10)
+fireworks_reimagined.register_firework_node(nil, "your_land", "yl_fireworks:yl_firework_entity", 0, nil, nil)
+fireworks_reimagined.register_firework_node(nil, "your_land", "yl_fireworks:yl_firework_entity", 10, nil, nil)
